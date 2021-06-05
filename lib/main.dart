@@ -41,7 +41,8 @@ class _MyHomePageState extends State<MyHomePage>{
                    child: Text(
                     'WELCOME',
                     style: TextStyle(
-                      fontSize: 80.0, fontWeight: FontWeight.bold
+                      fontSize: 80.0, fontWeight: FontWeight.bold,
+                      color: Colors.blue
                     ),
                   ), 
                 )
