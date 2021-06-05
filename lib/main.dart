@@ -97,10 +97,63 @@ class _MyHomePageState extends State<MyHomePage>{
                   ),
 
                 ),
+                  SizedBox(height:40.0),
+                Container(
+                  height: 40.0,
+                  child: Material(
+                    borderRadius: BorderRadius.circular(20.0),
+                    shadowColor: Colors.blueAccent,
+                    color: Colors.blue,
+                    elevation: 7.0,
+                    child: GestureDetector(
+                      onTap: (){},
+                      child: Center(
+                        child: Text(
+                          'LOGIN',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'Monserrat'
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                )
+              ],
+            )
+          ),
+          SizedBox(height:15.0),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                'New to FHR?',
+                style: TextStyle(
+                  fontFamily: 'Monserrat'
+                ),
+              ),
+              SizedBox(width:5.0),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).pushNamed('/signup');
+                }  ,
+                child: Text('Register',
+                style: TextStyle(
+                  color: Colors.blue,
+                  fontFamily: 'Montserrat',
+                  fontWeight: FontWeight.bold,
+                  decoration: TextDecoration.underline
+                ),
+                ),
+              )
+
         ]),
 
 
-            ),],
+           
+           
+        ],
       ),
     );
   }}
