@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget{
         canvasColor: Colors.white54,
       ),
       debugShowCheckedModeBanner: false,
+       routes: <String, WidgetBuilder>{
+        '/signup': (BuildContext context) => new SignupPage()
+      },
      
       
       
