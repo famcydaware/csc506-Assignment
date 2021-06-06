@@ -52,7 +52,7 @@ class _SignupPageState extends State<SignupPage>{
                     labelStyle: TextStyle(
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.bold,
-                      color: Colors.grey
+                      color: Colors.blue[900]
                     ),
                     focusedBorder: UnderlineInputBorder(
                       borderSide:BorderSide (color:Colors.blue)
@@ -67,7 +67,7 @@ class _SignupPageState extends State<SignupPage>{
                     labelStyle: TextStyle(
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.bold,
-                      color: Colors.grey
+                      color: Colors.blue[900]
                     ),
                     focusedBorder: UnderlineInputBorder(
                       borderSide:BorderSide (color:Colors.blue)
