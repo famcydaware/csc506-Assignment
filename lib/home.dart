@@ -62,11 +62,11 @@ height:40,
 color:Colors.blue,
 ),
 Text(
-'Hello Big head \n Walida',
+'WELCOME TO OUR WEB PAGE',
 style:TextStyle(color:Colors.lime,fontSize:50),
 ),
 Text(
-'Hello Big head \n Nakash',
+'CSC506 ASSIGNMENT',
 style:TextStyle(color:Colors.greenAccent,fontSize:50),
 )
 ],
