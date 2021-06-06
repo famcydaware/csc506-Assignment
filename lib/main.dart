@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/signup.dart';
+import 'signup.dart';
+import 'home.dart';
 
 void main() {
   runApp (new MyApp());
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget{
       ),
       debugShowCheckedModeBanner: false,
        routes: <String, WidgetBuilder>{
-        '/signup': (BuildContext context) => new SignupPage()
+       '/signup': (BuildContext context) => new SignupPage(),
+         '/home': (BuildContext context) => new MyHome()
       },
      
       
@@ -109,7 +111,9 @@ class _MyHomePageState extends State<MyHomePage>{
                     color: Colors.blue,
                     elevation: 7.0,
                     child: GestureDetector(
-                      onTap: (){},
+                      onTap: (){
+                        Navigator.of(context).pushNamed('/home');
+                      },
                       child: Center(
                         child: Text(
                           'LOGIN',
