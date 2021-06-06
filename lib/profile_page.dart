@@ -11,7 +11,7 @@ class ProfileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title:Text("My Profile"),backgroundColor: Colors.blue[900],),
+        appBar: AppBar(title:Text("MY PROFILE"),backgroundColor: Colors.blue[900],),
         body: Column(
           children: [
             Container(
@@ -79,7 +79,7 @@ class ProfileApp extends StatelessWidget {
                                         height: 5.0,
                                       ),
                                       Text(
-                                        "",
+                                        "DEPARTMENT OF COMPUTER SCIENCE",
                                         style: TextStyle(
                                           fontSize: 20.0,
                                           color: Colors.white,
@@ -104,7 +104,7 @@ class ProfileApp extends StatelessWidget {
                                         height: 5.0,
                                       ),
                                       Text(
-                                        "",
+                                        "faisalabdumubi@gmail.com",
                                         style: TextStyle(
                                           fontSize: 20.0,
                                           color: Colors.white,

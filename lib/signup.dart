@@ -132,7 +132,7 @@ class _SignupPageState extends State<SignupPage>{
               ],
             )
           ),
-           SizedBox(height:40.0),
+           SizedBox(height:50.0),
                  /* Container(
                   height: 40.0,
                   child: Material(
